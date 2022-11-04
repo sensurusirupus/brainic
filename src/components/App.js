@@ -277,8 +277,8 @@ class App extends Component {
       <div style={{ backgroundColor: "#080E37" }}>
         <nav
           className="navbar  fixed-top flex-md-nowrap p-0 shadow"
-          // style={{ backgroundColor: "#00C899" }}
-          style={{ backgroundColor: "#080E37" }}
+          style={{ backgroundColor: "#00C899" }}
+          // style={{ backgroundColor: "#080E37" }}
         >
           <iframe
             src="https://embed.lottiefiles.com/animation/6633"
@@ -286,6 +286,12 @@ class App extends Component {
             width={110}
             height={110}
           ></iframe>
+          <p
+            className="text-center"
+            style={{ fontSize: "20px", color: "#080f37" }}
+          >
+            Brainic
+          </p>
           <ul className="navbar-nav px-3">
             <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
               <small className="text-muted">
@@ -303,7 +309,16 @@ class App extends Component {
           <div className="row" style={{ marginTop: "110px" }}>
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto">
-                <h1 className="d-4">Start matching now!</h1>
+                <h2
+                  className="d-4 "
+                  style={{
+                    color: "white",
+                    marginTop: "20px",
+                    marginBottom: "20px",
+                  }}
+                >
+                  Start Pairing now!
+                </h2>
 
                 <div className="grid mb-4" style={{ width: "700px" }}>
                   {this.state.cardArray.map((card, key) => {
@@ -326,7 +341,11 @@ class App extends Component {
                 </div>
 
                 <div>
-                  <h5>
+                  <h5
+                    style={{
+                      color: "white",
+                    }}
+                  >
                     Tokens Collected:
                     <span id="result">&nbsp;{this.state.tokenURIs.length}</span>
                   </h5>
