@@ -3,6 +3,9 @@ import Web3 from "web3";
 import "./App.css";
 import MemoryToken from "../abis/MemoryToken.json";
 import brain from "../brain.png";
+function truncateString(str, length) {
+  return str.length > length ? str.substring(0, length - 3) + "..." : str;
+}
 
 const CARD_ARRAY = [
   {
@@ -274,24 +277,30 @@ class App extends Component {
       <div style={{ backgroundColor: "#080E37" }}>
         <nav
           className="navbar  fixed-top flex-md-nowrap p-0 shadow"
-          style={{ backgroundColor: "#00C899" }}
+          // style={{ backgroundColor: "#00C899" }}
+          style={{ backgroundColor: "#080E37" }}
         >
           <iframe
             src="https://embed.lottiefiles.com/animation/6633"
             frameBorder={0}
-            width={100}
-            height={100}
+            width={110}
+            height={110}
           ></iframe>
           <ul className="navbar-nav px-3">
             <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
               <small className="text-muted">
-                <span id="account">{this.state.account}</span>
+                <span
+                  id="account"
+                  style={{ fontSize: "20px", marginRight: "30px" }}
+                >
+                  {truncateString(this.state.account, 8)}
+                </span>
               </small>
             </li>
           </ul>
         </nav>
         <div className="container-fluid">
-          <div className="row" style={{ marginTop: "60px" }}>
+          <div className="row" style={{ marginTop: "110px" }}>
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto">
                 <h1 className="d-4">Start matching now!</h1>
