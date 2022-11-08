@@ -26,7 +26,7 @@
 <p align="center">
     <a href="https://youtu.be/ud4P45zhCk0" title="">🖥️ Video</a>
     .
-    <a href="https://app.netlify.com/sites/brainic/settings/domain" title="">🔗 Website</a>
+    <a href="brainic.netlify.app" title="">🔗 Website</a>
     ·
     <a href="https://github.com/sensurusirupus/brainic" title="">📂 Repo</a>
     ·
