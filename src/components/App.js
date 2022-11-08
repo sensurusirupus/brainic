@@ -274,7 +274,7 @@ class App extends Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "#080E37" }}>
+      <div style={{ backgroundColor: "#080E37", height: "2000px" }}>
         <nav
           className="navbar  fixed-top flex-md-nowrap p-0 shadow"
           style={{ backgroundColor: "#00C899" }}
