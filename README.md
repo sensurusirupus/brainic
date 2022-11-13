@@ -20,13 +20,13 @@
 </a>
 </p>
 
-<p align="center" title="Project Initiator"><img src="https://i.ibb.co/7SzKkQR/Screenshot-2022-11-10-at-8-18-38-PM.png" alt="Project Initiator"/></p>
+<p align="center" title="Project Initiator"><img src="https://i.ibb.co/7SzKkQR/Screenshot-2022-11-10-at-8-18-38-PM.png" alt="Project Initiator"/></p>`
 
 <h2 align="center">🌐 Links 🌐</h2>
 <p align="center">
-    <a href="https://youtu.be/CR0SOEPT8Uk" title="">🖥️ Video</a>
+    <a href="https://www.youtube.com/watch?v=CR0SOEPT8Uk" title="">🖥️ Video</a>
     .
-    <a href="brainic.netlify.app" title="">🔗 Website</a>
+    <a href="https://brainic.netlify.app" title="">🔗 Website</a>
     ·
     <a href="https://github.com/sensurusirupus/brainic" title="">📂 Repo</a>
     ·
